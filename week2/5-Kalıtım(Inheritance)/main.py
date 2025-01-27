@@ -7,7 +7,6 @@ class Hayvan:
 class Kedi(Hayvan):
 
     def konus(self):
-         # Hayvan sınıfındaki konus ezmesini engelleyip onu da çağırır
         print("Kedi miyavlıyor")
 
 class Kopek(Hayvan):
