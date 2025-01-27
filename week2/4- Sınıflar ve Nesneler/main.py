@@ -22,12 +22,12 @@ class HesapMakinesi:
         self.sonuc = self.sayi1 / self.sayi2
         return f"Bölümleri: {self.sonuc}"
     
-bolme = HesapMakinesi(20, 5)
+islem = HesapMakinesi(20, 5)
 
-print(bolme.topla())
-print(bolme.cikar())
-print(bolme.carp())
-print(bolme.bol())
+print(islem.topla())
+print(islem.cikar())
+print(islem.carp())
+print(islem.bol())
 
 #1.2 Öğrenci Sınıfı
 
